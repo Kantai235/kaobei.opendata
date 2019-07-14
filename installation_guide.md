@@ -1,4 +1,4 @@
-# 純靠北工程師.資料開放平台  參與者建置指南
+# 純靠北工程師.資料開放平台  參與者建置指南(草稿)
 
 ## 簡介
 這是一項純靠北工程師的開源專案，我們採用 [Laravel 5.8 Boilerplate](https://github.com/rappasoft/laravel-5-boilerplate) 下去進行開發。
@@ -11,7 +11,7 @@
  * Apache (version ???)
  * MySql (X.xx.xx)
  * PHP (7.x.x)
-##
+ 
     使用整合產品如XAMPP時請務必注意以上各項的版本。尤其當版本間有較大變化時。
 ## Laravel 
 	本網站以Laravel框架建構
@@ -24,6 +24,8 @@
 ## 安裝流程 - Windows10 
 * 此處將簡單闡述使用XAMPP安裝包的操作流程。由於PHP及Apache間自動
 程度較低，因此不建議自行建構，建議以XAMPP代勞。
+
+![INSTALL XAMPP](https://1drv.ms/u/s!AnlQgqb4DDL3iaEjpVXSeBe1AX_1Hw?e=ktbsLr)
 1. 安裝 Composer
 2. 安裝 NodePackageManager(若不想加入NPM會員，可前往NodeJS網站下)
 3. 安裝 Yarn
