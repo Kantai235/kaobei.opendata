@@ -18,7 +18,7 @@
 
 ## 本平台之開發使用以下第三方工具
 	* Composer
-	* NodePackageManager
+	* NodeJS(yarn 相依於此)
 	* Yarn
 	
 ## 安裝流程 - Windows10 
