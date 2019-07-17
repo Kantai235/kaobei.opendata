@@ -31,14 +31,15 @@
 1. 下載並安裝 Composer(https://getcomposer.org)
 2. 下載並安裝 NodeJS(https://nodejs.org/en/)
 3. 下載並安裝 Yarn(https://yarnpkg.com/)
-4. 開啟 cmd 指令： 專案目錄 > composer install --no-scripts
+4. 開啟 cmd 指令： 專案目錄 > composer install
+	* 如果發生問題，可以嘗試 composer install --no-scripts。
 5. 開啟 cmd 指令： 專案目錄 > yarn
 6. 安裝MySql
 	* 6.1 一路按確認直到設定頁
 	* 6.2 注意MySql在使用者認證上這幾個版本有些問題(安裝經驗)，建議使用Legacy，畢竟是測試用，安全性問題無須在意。
 	* 6.3 記錄此處設定的port、使用者名稱與密碼等相關資料，後面的設定會用到
 	
-	![MYSQL SERVER PORT AND CREDENTIAL SETUP]()
+	![MYSQL SERVER PORT AND CREDENTIAL SETUP](https://i665.photobucket.com/albums/vv12/Ysuallkarl/GIthub/my_sql_setup_zpsnoxgnxat.png)
 	* 6.4 找到MySQL CommandeLineClient，登入
 	* 6.5 建立一個空資料庫，請務必記下這個資料庫的名字，若您不熟悉SQL指令，可以直接複製下面的SQL指令。
 
@@ -48,7 +49,7 @@
 	* 7.2 將檔案另存為 .env
 	* 7.3 修改 DB 的部分為剛才的資料庫，實際設定請參考下圖。
 	
-	![ENV SETUP EXAMPLE]()
+	![ENV SETUP EXAMPLE](https://i665.photobucket.com/albums/vv12/Ysuallkarl/GIthub/env_setup_example_zpsrl9qpiak.png)
 	* 7.4 存檔
 	
 
@@ -59,7 +60,10 @@
 	
 	     php artisan migrate
 
-	     php artisan <驗證>
+	     php artisan db:seed
+
+		 npm run watch
+
 
 9. 啟動伺服器 
 10. 打開瀏覽器，輸入localhost，檢查網站是否運作正常
