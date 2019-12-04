@@ -30,7 +30,7 @@ class SocialiteHelper
         }
 
         if (config('services.github.active')) {
-            $socialite_enable[] = "<a href='".route('frontend.auth.social.login', 'github')."' class='btn btn-sm btn-outline-info m-1'><i class='fab fa-github'></i> ".__('labels.frontend.auth.login_with', ['social_media' => 'Github']).'</a>';
+            $socialite_enable[] = "<a href='".route('frontend.auth.social.login', 'github')."' class='btn btn-sm btn-outline-info m-1'><i class='fab fa-github'></i> ".__('labels.frontend.auth.login_with', ['social_media' => 'GitHub']).'</a>';
         }
 
         if (config('services.linkedin.active')) {
